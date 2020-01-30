@@ -1,0 +1,6 @@
+Need to add a .env file to the root of the project directory with
+
+SPROUT_PASSWORD=YourSproutPassword
+SPROUT_USER=YourSproutEmailAddress
+
+If these are missing, the testthat will not attempt to authenticate to sprout during testing
