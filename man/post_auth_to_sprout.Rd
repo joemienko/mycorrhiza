@@ -13,6 +13,9 @@ post_auth_to_sprout(email = NULL, password = NULL, env = NULL,
 \item{password}{A password associated with `email`.}
 
 \item{env}{The desired API environment.}
+
+\item{user_dat}{A boolean indicating whether or not the user wants session information
+returned from the function.}
 }
 \description{
 Authenticate to the Sprout API

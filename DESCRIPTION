@@ -1,25 +1,30 @@
 Package: mycorrhiza
 Type: Package
-Title: Sprout Service Management Wrapper
+Title: Mycorrhizae - A symbiotic wrapper to Sprout
 Version: 0.1.0
 Date: 2020-01-30
 Authors@R: c(
     person("Joe", "Mienko", email = "mienko@uw.edu", role = c("aut", "cre"))
   )
 Maintainer: Joe Mienko <mienko@uw.edu>
-Description: Securely bringing Sprout data objects to the 'tidyverse'. The 'tidyquant' 
-    package provides a convenient wrapper to various package 
-    functions and returns the objects in the tidy 'tibble' format. The main 
-    advantage is being able to use quantitative functions with the 'tidyverse'
-    functions including 'purrr', 'dplyr', 'tidyr', 'ggplot2', 'lubridate', etc. See 
-    the 'mycorrhiza' website for more information, documentation and examples.
+Description: A sprout is a plant. A mycorrhiza is a symbiotic association between a 
+    fungus and a plant. The term mycorrhiza refers to the role of the fungus in the plant's 
+    rhizosphere, its root system. Mycorrhizae play important roles in plant nutrition, soil 
+    biology and soil chemistry. The hope is that the 'mycorrhiza' package will serve in a 
+    metaphorically similar role to the sprout service management solution (www.sproutservices.org) 
+    - we shall see. Metaphors aside, the goal of 'mycorrhiza' is to securely bring sprout data 
+    objects to the 'tidyverse'. The 'mycorrhiza' package provides a convenient wrapper to various  
+    functions and returns the objects in the tidy 'tibble' format. The main advantage is being able 
+    to use quantitative functions with the 'tidyverse' functions including 'purrr', 'dplyr', 'tidyr', 
+    'ggplot2', 'lubridate', etc. See the 'mycorrhiza' website for more information, documentation and 
+    examples.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-Depends: R (>= 3.0.0)
-Imports: dplyr (>= 0.8.3), ggplot2, httr, lazyeval, magrittr, purrr,
+Depends: R (>= 3.0.0), dplyr (>= 0.8.3)
+Imports: ggplot2, httr, lazyeval, magrittr, purrr,
         Quandl, stringr, tibble, tidyr (>= 1.0.0), timetk, TTR, xml2,
-        xts, rlang, rstudioapi, crayon, cli, dotenv
+        xts, rlang, rstudioapi, crayon, cli, dotenv, jsonlite
 Suggests: tidyverse, broom, knitr, rmarkdown, testthat, scales, readxl
 RoxygenNote: 6.1.1
 VignetteBuilder: knitr
